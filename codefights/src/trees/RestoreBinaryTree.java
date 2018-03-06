@@ -23,7 +23,7 @@ public class RestoreBinaryTree {
 			}
 		
 		node.left = construct(preorder, preStart + 1, preStart + (index - inStart) , inorder, inStart, index - 1);
-		node.right = construct(preorder, preStart + (index - inStart) + 1, preEnd, inorder, index + 1, inEnd)
+		node.right = construct(preorder, preStart + (index - inStart) + 1, preEnd, inorder, index + 1, inEnd);
 			
 		
 		return null;

@@ -26,7 +26,7 @@ public class RestoreBinaryTree {
 		node.right = construct(preorder, preStart + (index - inStart) + 1, preEnd, inorder, index + 1, inEnd);
 			
 		
-		return null;
+		return node;
 	}
 	
 	public TreeNode<Integer> restoreBinaryTree(int[] inorder, int[] preorder) {
